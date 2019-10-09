@@ -1,5 +1,5 @@
 {:title "Quick Start Guide"
- :layout :post
+ :layout :page
  :tags  ["cryogen"]
  :toc true}
 

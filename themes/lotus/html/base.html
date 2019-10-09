@@ -6,10 +6,21 @@
         <meta name="description" content="">
         <meta name="keywords" content="">
         <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144.png">
-        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114.png">
-        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72.png">
-        <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57.png">
+
+        <link rel="apple-touch-icon" sizes="60x60" href="/img/apple-touch-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="/img/apple-touch-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="/img/apple-touch-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="/img/apple-touch-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+        <link rel="manifest" href="/img/site.webmanifest">
+        <link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#5bbad5">
+        <link rel="shortcut icon" href="/img/favicon.ico">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="msapplication-config" content="/img/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff">
+
 
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Oxygen:300,400,700|Inconsolata" rel="stylesheet">
         {% style "css/normalize.css" %}
@@ -21,7 +32,7 @@
         <aside id="sidebar">
             <div id="logo">
                 <a title="{{title}}" href="{{index-uri}}">
-                    <img class="icon" src="{{blog-prefix}}/img/white-lotus.svg">
+                    <img class="icon" src="{{blog-prefix}}/img/books.svg">
                     <div class="text desktop-and-tablet-only">{{title}}</div>
                     <div class="text mobile-only">{{title}}</div>
                 </a>
@@ -50,8 +61,8 @@
 
                 <nav id="socialmedia">
                     <ul>
-                        <li><a title="LinkedIn" href="https://www.linkedin.com/in/matthewdavidson1" rel="external"><svg class="icon icon-linkedin"><use xlink:href="{{blog-prefix}}/img/icons.svg#icon-linkedin"></use></svg></a></li>
-                        <li><a title="GitHub" href="https://github.com/KingMob" rel="external"><svg class="icon icon-github-circled"><use xlink:href="{{blog-prefix}}/img/icons.svg#icon-github-circled"></use></svg></a></li>
+                        <li><a title="LinkedIn" href="https://www.linkedin.com/in/sankararameswaran" rel="external"><svg class="icon icon-linkedin"><use xlink:href="{{blog-prefix}}/img/icons.svg#icon-linkedin"></use></svg></a></li>
+                        <li><a title="GitHub" href="https://github.com/sankara" rel="external"><svg class="icon icon-github-circled"><use xlink:href="{{blog-prefix}}/img/icons.svg#icon-github-circled"></use></svg></a></li>
                         <li><a title="RSS Feed" href="{{rss-uri}}"><svg class="icon icon-rss-squared"><use xlink:href="{{blog-prefix}}/img/icons.svg#icon-rss-squared"></use></svg></a></li>
                     </ul>
                 </nav>
@@ -66,6 +77,8 @@
                 Copyright &copy; {{today|date:yyyy}} {{author}}
                 <br>Powered by <a href="http://cryogenweb.org">Cryogen</a>
                 <br>Theme by <a href="http://github.com/KingMob">KingMob</a>
+                <br>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
+                from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
             </div>
         </article>
 
