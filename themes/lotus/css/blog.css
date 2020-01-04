@@ -43,7 +43,7 @@ h1 {
   margin-bottom: 0.22916667em;
   /* (22px / 48px) * .5 */
   font-weight: 700;
-  font-family: Montserrat, sans-serif;
+  font-family: Gelasio, serif;
   font-size: 3em;
   line-height: 1.05;
   letter-spacing: -0.01em;
@@ -79,7 +79,7 @@ h2 {
   margin-bottom: 0.34375em;
   /* (22px / 32px) * .5 */
   font-weight: 700;
-  font-family: Montserrat, sans-serif;
+  font-family: Gelasio, serif;
   letter-spacing: -0.01em;
   font-size: 2.25em;
   line-height: 1.25;
@@ -115,7 +115,7 @@ h3 {
   margin-bottom: 0.45833334em;
   /* (22px / 24px) * .5 */
   font-weight: 700;
-  font-family: Montserrat, sans-serif;
+  font-family: Gelasio, serif;
   font-size: 1.75em;
   line-height: 1.25;
 }
@@ -193,6 +193,7 @@ blockquote {
   color: #555;
   border-left: 5px solid #522158;
   padding: 0.5em;
+  font-family: Rosario, sans-serif;
   font-style: italic;
   font-size: 1.25em;
   line-height: 1.45833333;
@@ -232,7 +233,7 @@ code, kbd, samp {
   padding: 7px 12px;
   margin: 0;
   width: auto;
-  font-family: Montserrat, sans-serif;
+  font-family: Gelasio, serif;
   font-size: 14px;
   text-transform: uppercase;
   cursor: pointer;
@@ -531,7 +532,7 @@ img {
   font-size: 30px;
   line-height: 0.8;
   font-weight: 600;
-  font-family: Montserrat, sans-serif;
+  font-family: Gelasio, serif;
   text-align: center;
   text-transform: uppercase;
   text-shadow: 0px 0px 14px rgba(0, 0, 0, 0.5);
