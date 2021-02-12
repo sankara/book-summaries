@@ -11,7 +11,7 @@ services:
     environment:
       VIRTUAL_HOST: wordsmith.dev.sankara.me
       VIRTUAL_PORT: 4000
-      LETSENCRYPT_HOST: wordsmith.dev.sankara.me
+      LETSENCRYPT_HOST: wordsmith.sankara.me
       LETSENCRYPT_EMAIL: admin@sankara.me
       ENABLE_IPV6: "true"
 
